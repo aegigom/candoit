@@ -4,43 +4,6 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<p>
-★ 비상업적 용도로 수정, 재배포가 가능합니다.<br>
-   상업적인 이용은 금지 합니다.<br>
-<br>
-★ 운전자는 현지의 법률을 준수할 의무가 있습니다.<br>
-   대한민국의 도로교통법은 운전 중 전방 주시 의무, 정확한 조향을 할 의무를 운전자에게 부여하고 있습니다.<br>
-   대한민국의 튜닝 법률은 '경미한 튜닝'으로서 승인 의무가 없는 튜닝이라 하더라도, 자동차관리법의 안전기준을 준수하도록 하고 있습니다.<br>
-   위에 위배되는 튜닝 및 장치 사용은 사용자 개인의 책임입니다.<br>
-<br>
-★ CAN Bus에 장치를 추가하거나, 추가된 장치를 통해 패킷을 읽고/보내는 작업은 차의 기능을 고장내거나, 주행 중 차량이 멈출 수 있는 리스크가 있습니다.<br>
-   이 레포지토리에서 제공되는 코드는 충분히 검증되지 않았습니다.<br>
-   사용 중 발생할 수 있는 모든 문제는 개인의 책임입니다.<br>
-<br>
-★ 본 리포지토리는 Tesla Model Y 2021 (Made in USA) 에서 테스트 되었습니다.<br>
-   Model3용 DBC 파일을 기준으로 만들었기 때문에 동일한 연식에서는 사용 가능할 것으로 보이나,<br>
-   차종에 따라 모듈의 구성, 주소, 패킷 규칙이 달라져 동작하지 않을 수 있습니다.<br>
-   또한 차량 업데이트를 통해 주소, 패킷주소가 달라져 잘 동작하던 기능이 추후 사용할 수 없게 될 수 있습니다.<br>
-<br>
-    기능 문의 / 건의 및 인클로져 제작 문의 등은 <a href="https://cafe.naver.com/canhacker">https://cafe.naver.com/canhacker</a>를 방문해 주세요.<br>
-<br>
-커피 한잔 사주고 싶으신 분은 <a href="https://cafe.naver.com/canhacker">https://toss.me/canhackers</a><br>
-<br>
-<br><br><br>
-
-★ 하드웨어 구성 준비물<br><br>
-
-1. 라즈베리파이 2W 또는 2WH : 만약 2W를 구입했다면 HAT을 연결하기 위한 헤더핀을 별도로 구입해 납땜 해야 합니다.<br>
-2. Waveshare RS485 CAN HAT<br>
-3. 12V → 5V Step Down 모듈 (MP1584EN 外)<br>
-4. Micro USB Male Vertical PCB (<a href="https://www.aliexpress.com/item/1005002320414960.html">https://www.aliexpress.com/item/1005002320414960.html</a>)<br>
-5. Micro SD 메모리 최소 8GB, 권장 32GB 이상<br>
-6. DIY용 OBD 커넥터 (<a href="https://www.aliexpress.com/item/1468276483.html">https://www.aliexpress.com/item/1468276483.html</a>)<br>
-- 6번 핀 CAN High, 14번 핀 Can Low, 16번 핀 12V, 4번핀 GND<br>
-7. 전용 인클로져 (<a href="https://cafe.naver.com/canhacker/27">https://cafe.naver.com/canhacker/27</a>) 또는 직접 디자인 한 케이스<br>
-8. Tesla용 OBD 컨버터 케이블 (<a href="https://www.aliexpress.com/item/1005006022463035.html">https://www.aliexpress.com/item/1005006022463035.html</a>)<br>
-<br>
-
 ★ 설치 방법<br>
 1. <a href="https://www.raspberrypi.com/software/">https://www.raspberrypi.com/software/</a><br>
    에서 Raspberry Pi Imager를 다운로드 받습니다. <br>
